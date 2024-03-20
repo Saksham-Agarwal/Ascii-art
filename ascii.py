@@ -1,6 +1,5 @@
 from PIL import Image
 import numpy as np
-import os 
 import open as op
 
 image = op.get_list_images()
