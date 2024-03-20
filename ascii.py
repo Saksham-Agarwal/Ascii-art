@@ -4,7 +4,8 @@ import os
 
 def get_list_images():
     pwd = os.getcwd()
-    dir_list = os.listdir(pwd)
+    # print(pwd)
+    dir_list = os.listdir(pwd + "\images")
     count = 0
     alt = []
     for i in range(len(dir_list)):
